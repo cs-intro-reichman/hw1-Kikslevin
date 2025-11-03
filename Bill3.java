@@ -7,6 +7,6 @@ public class Bill3 {
 		String diner3 = args[2];
 		double Totalbill = Double.parseDouble(args[3]);
 		double EachPays = Math.ceil(Totalbill / 3);
-		System.out.println( "Dear " + diner3 + ", " + diner2 + ", and " + diner1 + " pay: " + EachPays + " Shekels each");
+		System.out.println( "Dear " + diner3 + ", " + diner2 + ", and " + diner1 + ": pay " + EachPays + " Shekels each");
 	}
 }
