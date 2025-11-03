@@ -6,6 +6,6 @@ public class FVCalc {
 	int years = Integer.parseInt(args[2]);
 	double futurevalue = invested * (double)(Math.pow((1 + interestrate/100), years));
 	int futurevalueint = (int) Math.round(futurevalue);
-	System.out.println( "After " + years + " years, $" + invested + " saved at an interest rate of " + interestrate + " will yield $" + futurevalueint);
+	System.out.println( "After " + years + " years, $" + invested + " saved at an interest rate of " + interestrate + "%25 will yield $" + futurevalueint);
 }
 }
